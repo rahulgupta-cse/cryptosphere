@@ -106,19 +106,6 @@ src
 
 ---
 
-## Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/rahulgupta-cse/cryptosphere.git
-
-### Navigate to Project Directory
-
-```bash
-cd cryptosphere
-```
-
 ## Key Functionalities
 
 ### Cryptocurrency Market Overview
