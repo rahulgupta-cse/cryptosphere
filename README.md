@@ -1,70 +1,193 @@
-# Getting Started with Create React App
+# CryptoSphere
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CryptoSphere is a cryptocurrency tracking web application that provides real-time market data, detailed coin information, interactive price charts, and market insights. Users can explore cryptocurrency trends, monitor prices, and analyze historical performance through a clean and responsive interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Live Demo
 
-### `npm start`
+**Website:** https://cryptosphere-live.netlify.app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### Homepage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```md
+![Homepage](screenshots/homepage.png)
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Trending Cryptocurrencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```md
+![Trending Coins](screenshots/trending-coins.png)
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### Cryptocurrency Details Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```md
+![Coin Details](screenshots/coin-details.png)
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Price Chart
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```md
+![Price Chart](screenshots/chart.png)
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Real-time cryptocurrency market tracking
+* Detailed information for individual cryptocurrencies
+* Interactive historical price charts
+* Currency conversion support (USD / INR)
+* Trending cryptocurrencies section
+* Fully responsive design
+* Modern and user-friendly interface
+* Fast loading and optimized performance
+* Search functionality for cryptocurrencies
+* Historical price analysis
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
 
-### Analyzing the Bundle Size
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* React.js
+* React Router DOM
+* Material UI (MUI)
+* Axios
+* Chart.js
+* React ChartJS 2
+* HTML React Parser
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Netlify
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Structure
+
+```text
+src
+│
+├── components
+│   ├── Banner
+│   ├── CoinInfo
+│   ├── CoinsTable
+│   ├── Header
+│   ├── Carousel
+│   └── SelectButton
+│
+├── Pages
+│   ├── Homepage
+│   └── CoinPage
+│
+├── config
+│   ├── api.js
+│   └── data.js
+│
+├── CryptoContext.js
+├── App.js
+├── index.js
+└── index.css
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/rahulgupta-cse/cryptosphere.git
+
+### Navigate to Project Directory
+
+```bash
+cd cryptosphere
+```
+
+## Key Functionalities
+
+### Cryptocurrency Market Overview
+
+* Live cryptocurrency listings
+* Market capitalization tracking
+* Price monitoring
+* 24-hour percentage changes
+
+### Detailed Coin Analysis
+
+* Coin description
+* Market rank
+* Current price
+* Market capitalization
+* Historical performance data
+
+### Interactive Charts
+
+* 24 Hours
+* 30 Days
+* 90 Days
+* 1 Year
+
+Historical chart visualization powered by Chart.js.
+
+---
+
+## Responsive Design
+
+The application is optimized for:
+
+* Desktop Devices
+* Laptops
+* Tablets
+* Mobile Phones
+
+---
+
+## Future Enhancements
+
+* User Authentication
+* Watchlist Feature
+* Portfolio Tracking
+* Dark/Light Theme Toggle
+* Price Alerts
+* News Integration
+* Advanced Analytics Dashboard
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push the branch
+5. Create a Pull Request
+
+---
+
+## Author
+
+**Rahul Gupta**
+
+Python Full Stack Developer
+
+GitHub: https://github.com/rahulgupta-cse/cryptosphere.git
+
+---
