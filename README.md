@@ -38,7 +38,7 @@ CryptoSphere is a cryptocurrency tracking web application that provides real-tim
 ### Price Chart
 
 ```md
-![Price Chart](https://raw.githubusercontent.com/rahulgupta-cse/cryptosphere/main/screenshots/chart.png)
+![Price Chart](screenshots/chart.png)
 ```
 
 ---
