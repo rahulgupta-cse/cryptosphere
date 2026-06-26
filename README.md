@@ -15,7 +15,7 @@ CryptoSphere is a cryptocurrency tracking web application that provides real-tim
 ### Homepage
 
 ```md
-![Homepage](screenshots/homepage.png)
+![Homepage](.screenshots/homepage.png)
 ```
 ---
 
